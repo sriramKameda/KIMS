@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+	  
+	  <classes>
+		  
+<!--	  <class name="pagesTestCasesYasasiiWeb.KIMS_interimIncoice_IP_TestcaseYW"/>
+      <class name="pagesTestCasesYasasiiWeb.KIMS_StockTransfer_TestcaseYW"/>
+      <class name="pagesTestCasesYasasiiWeb.KIMS_InstructionOrder_TestcasesYW"/>
+      <class name="pagesTestCasesYasasiiWeb.KIMS_pathology_FrozenTestcaseYW"/>
+      <class name="pagesTestCasesYasasiiWeb.KIMS_ClosedEncounterBilling_TestCaseYW"/>
+      <class name="pagesTestCasesYasasiiWeb.KIMS_CpoePendingOrder_Billing_TestcaseYW"/>
+      <class name="pagesTestCasesYasasiiWeb.KIMS_Inventory_TestcaseYW"/>   
+      <class name="pagesTestCasesYasasiiWeb.KIMS_MedicineMaster_Diagnosis_TestcaseYW"/>
+      <class name="pagesTestCasesYasasiiWeb.KIMS_ORFlowTestCases"/>   
+      <class name="pagesTestCasesYasasiiWeb.KIMS_PharmacyBilling_Additive_outsider_Walkin_TestcaseYW"/>
+      <class name="pagesTestCasesYasasiiWeb.KIMS_nursingStationTransfer_Testcase"/>
+      <class name="pagesTestCasesYasasiiWeb.KIMS_StockMovement_TestcaseYW"/>  -->
+      
+      
+      <class name="pagesTestCasesYasasiiWeb.KIMS_AdjustmentRefund_TestcaseYW"/>   
+      <class name="pagesTestCasesYasasiiWeb.KIMS_Pathology_IHCTestCaseYW"/>
+      <class name="pagesTestCasesYasasiiWeb.KIMS_PharmacyBilling_RecomennedDose_Substitute_TestcaseYW"/>
+      <class name="pagesTestCasesYasasiiWeb.KIMS_DialysisNote_TestcaseYW"/>
+        
+	</classes>  
+	  
+	  
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
