@@ -128,8 +128,6 @@ public class TestBaseYasasiiWeb {
 				this.driver= new ChromeDriver(chrop);
 				log.debug("Chrome launched..");
 				
-				driver.manage().window().maximize();
-				
 				
 			}
 
@@ -139,6 +137,11 @@ public class TestBaseYasasiiWeb {
 			driver.manage().window().maximize();
 			driver.manage().timeouts().implicitlyWait(Integer.parseInt(config.getProperty("implicit.wait")), TimeUnit.SECONDS);
 			wait=new WebDriverWait(driver, Duration.ofSeconds(10));
+			
+			 ChromeOptions chromeOptions = new ChromeOptions();
+             chromeOptions.addArguments("--start-maximized");
+             WebDriverManager.chromedriver().setup();
+             driver = new ChromeDriver(chromeOptions);
 
 		}	
 
