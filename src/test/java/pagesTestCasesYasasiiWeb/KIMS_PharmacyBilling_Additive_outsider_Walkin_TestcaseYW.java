@@ -94,7 +94,7 @@ public void logout() throws Exception
 @DataProvider
 public Object[][] getData() throws Exception{
 
-	Object[][] data =readExcel("PharmacyOutsider");
+	Object[][] data =readExcel("Pharmacy_additive");
 	return data;	
 	
 }

@@ -46,6 +46,10 @@ public class LoginPageYasasiiWeb extends PageFactoryInitYasasiiWeb {
 	{
 ///////////////Login credentials
 		
+		
+		//Mazimize current window
+		driver.manage().window().maximize();
+		
 		Thread.sleep(1500);
 		username.clear();
 		Thread.sleep(1000);
