@@ -70,7 +70,6 @@ public void walkin(String title,String Name,String Lastname,String Dob, String D
 	avail.AuthorisingRequest( User, Password, site, MRNo);
 	
 	
-	
 }
 
 
