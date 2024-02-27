@@ -55,7 +55,7 @@
       <class name="pagesTestCasesYasasiiWeb.KIMS_Pathology_IHCTestCaseYW"/>
       <class name="pagesTestCasesYasasiiWeb.KIMS_PharmacyBilling_RecomennedDose_Substitute_TestcaseYW"/>
       <class name="pagesTestCasesYasasiiWeb.KIMS_DialysisNote_TestcaseYW"/>
-       
+       <class name="pagesTestCasesYasasiiWeb.KIMS_PackageBilling_TestcaseYW"/>
        
     </classes>
   </test> <!-- Test -->
