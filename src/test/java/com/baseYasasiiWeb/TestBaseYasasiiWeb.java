@@ -127,6 +127,10 @@ public class TestBaseYasasiiWeb {
 				System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\src\\test\\resources\\executablesYasasiiWeb\\chromedriver.exe");
 				this.driver= new ChromeDriver(chrop);
 				log.debug("Chrome launched..");
+				
+				driver.manage().window().maximize();
+				
+				
 			}
 
 
